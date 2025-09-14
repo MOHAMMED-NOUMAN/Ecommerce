@@ -53,7 +53,7 @@ useEffect(()=>{
     AOS.refresh();
 },[])
   return (
-    <div data-aos="zoom-out" className='bg-white dark:bg-gray-900 dark:text-white duration-200 overflow-hidden'>
+    <div className='bg-white dark:bg-gray-900 dark:text-white duration-200 overflow-hidden'>
       <Navbar handleOrderPopup = {handleOrderPopup}/>
       <Hero handleOrderPopup = {handleOrderPopup}/>
       <Category/>
